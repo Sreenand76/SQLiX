@@ -10,7 +10,7 @@ SQLix is an educational full-stack web application that demonstrates the differe
 - 🧪 Simulates login functionality with SQL query visualization
 - 📊 Demonstrates how malicious inputs manipulate SQL logic
 - 💡 Includes prebuilt test cases with explanation (e.g., `admin' --`, `' OR '1'='1`)
-- 📦 Dockerized backend (Spring Boot + PostgreSQL)
+- 📦 Dockerized backend (Spring Boot)
 - ⚛️ Frontend built with React and Toast notifications for feedback
 
 ---
@@ -21,7 +21,7 @@ SQLix is an educational full-stack web application that demonstrates the differe
 |-----------|------------------------------------|
 | Frontend  | React, Toastify, CSS               |
 | Backend   | Spring Boot, JDBC, JPA             |
-| Database  | PostgreSQL                         |
+| Database  | MySQL                              |
 | Tools     | Docker, Postman, Vercel, Render    |
 
 ---

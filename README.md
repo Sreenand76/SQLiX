@@ -28,7 +28,7 @@ SQLix is an educational full-stack web application that demonstrates the differe
 
 ## 📸 Demo
 
-Try it live here 👉 [https://sqlix-demo.vercel.app](https://sqlix-demo.vercel.app)
+Try it live here 👉 [https://sqlix-demo.vercel.app](https://sqlix.vercel.app)
 
 ---
 

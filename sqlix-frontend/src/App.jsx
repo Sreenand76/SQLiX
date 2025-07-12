@@ -11,7 +11,7 @@ export default function App() {
 
   const toggleMode = async () => {
     try {
-      const res = await fetch('http://localhost:8080/api/toggle', { method: 'POST' });
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/toggle`, { method: 'POST' });
       const newMode = await res.text();
       setMode(newMode);
 
@@ -23,7 +23,7 @@ export default function App() {
 
   const handleLogin = async () => {
     try {
-      const res = await fetch('http://localhost:8080/api/login', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password }),

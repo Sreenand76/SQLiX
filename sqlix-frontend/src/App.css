@@ -26,14 +26,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .app-card {
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  padding: 2rem;
+  padding: 1.5rem;
   width: 100%;
   max-width: 420px;
 }
@@ -154,7 +154,7 @@ body {
 .hint-box {
   background-color: #f8fafc;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.8rem;
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -292,4 +292,18 @@ body {
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.loader {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #555;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

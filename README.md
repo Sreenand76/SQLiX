@@ -50,7 +50,7 @@ SQLix empowers developers, students, and security enthusiasts to learn about SQL
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/sreenand76/sqlix.git
+git clone https://github.com/sreenand76/SQLiX.git
 cd sqlix 
 ```
 ### 2. Setup the Frontend
